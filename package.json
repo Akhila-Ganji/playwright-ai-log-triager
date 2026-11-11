@@ -1,0 +1,17 @@
+{
+  "name": "playwright-ai-log-triager",
+  "version": "1.0.0",
+  "description": "An AI-driven test automation pipeline using LLM Context Engineering to parse and distill high-entropy Playwright logs.",
+  "main": "triage_agent.js",
+  "scripts": {
+    "test": "playwright test",
+    "triage": "node triage_agent.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
